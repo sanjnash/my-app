@@ -1,8 +1,8 @@
 import React from 'react';
+import { Divider } from 'primereact/divider';
 import { Menubar } from './Menubar';
-import { Divider } from './Divider';
-import { SlideMenu } from './SlideMenu';
-import {Card} from './Card'
+// import { SlideMenu } from './SlideMenu';
+import { Splitter } from './Splitter';
 
 export const Layout = () => {
     return (
@@ -14,12 +14,20 @@ export const Layout = () => {
                 <div class='p-divider'>
                     <Divider />
                 </div>
-                <div className='slidemenu'>
-                    <SlideMenu/>
-                </div>
+                <Splitter/>
+                {/* <div className='container'>
+                    <div className='flex flex-row'>
+                        <div className='slidemenu'>
+                        <SlideMenu/>
+                        </div>
+
+                    <div className='divider'>
+                    <Divider layout='vertical'/>
+                    </div>
+                     </div>                   
+                </div> */}
             </div>
-                 
-            
+                            
         </React.Fragment>
 
     )

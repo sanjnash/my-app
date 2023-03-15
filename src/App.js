@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { Layout } from './components/Layout';
+// import { Layout } from './components/Layout';
+import { Routes } from './Routes';
 
 
 const App= () => {
@@ -10,7 +11,7 @@ const App= () => {
     <Calendar/> */}
     {/* <Menubar/>
     <Sidebar/> */}
-    <Layout/>
+    <Routes />
         </div>
       );
 }
