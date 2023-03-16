@@ -245,7 +245,7 @@ export const SlideMenu=()=> {
 
     return (
         <div className="card flex justify-content-center">
-            <SlideMenuprime model={items} viewportHeight={670} menuWidth={200}>
+            <SlideMenuprime style={{width:270}} model={items} viewportHeight={670} menuWidth={200}>
          </SlideMenuprime>
         </div>
     )
