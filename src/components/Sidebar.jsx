@@ -17,7 +17,7 @@ const Sidebar=()=> {
             </Sidebarprime>
             <Button
              className="icon-sidebar" 
-            icon="pi pi-arrow-left"
+            icon="pi pi-cog"
              onClick={() => setVisible(true)}  
              />
         </div>

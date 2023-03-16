@@ -23,7 +23,14 @@ const LoginIndex = () => {
 				<Button  style={{width:'140px'}} type="button" label="Login" severity="success" ></Button>
 				</div>
 				<div className='login-help-container'>
-				<span style={{fontSize:'25px'}}>Don’t have an account?<button className="p-link" style={{fontSize:'20px'}} >Sign-up here</button></span>
+				<span style={{fontSize:'25px'}}>Don’t have an account?<button className="p-link" style={{fontSize:'20px'}} >
+					Sign-up here
+					</button></span>
+			</div>
+			<div className='login-forget-password'>
+				<span style={{fontSize:'25px'}}><button className="p-link" style={{fontSize:'20px'}} >
+					Forgot Password
+					</button></span>
 			</div>
 			</div>
 			

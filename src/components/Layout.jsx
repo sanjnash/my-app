@@ -15,17 +15,7 @@ export const Layout = () => {
                     <Divider />
                 </div>
                 <Splitter/>
-                {/* <div className='container'>
-                    <div className='flex flex-row'>
-                        <div className='slidemenu'>
-                        <SlideMenu/>
-                        </div>
-
-                    <div className='divider'>
-                    <Divider layout='vertical'/>
-                    </div>
-                     </div>                   
-                </div> */}
+               
             </div>
                             
         </React.Fragment>
